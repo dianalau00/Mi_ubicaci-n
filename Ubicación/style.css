@@ -1,0 +1,94 @@
+/*
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Ing. Ruth Martínez.
+Actividad 3
+Maqeuetado 2 Maquetado
+Diana Laura Chan Martínez
+Tercer cuatrimestre
+3-C
+Trabajo entregado en tiempo y forma calificado en base a 10.
+Trabajos entregados en fecha posterior sin justificación son calificados en base a 8.
+*/   
+header{
+    height: 100%;
+    width: 100%;
+    background-color: #aeaeae;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.flex-items{
+    border: 2px solid #000;
+}
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 250px;
+    width: 500px;
+    background-color: aliceblue;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 250px;
+    width: 250px;
+    background-color: bisque;
+}
+
+
+main{
+    height: 400px;
+}
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main-items{
+    border: 10px solid #000;
+    
+}
+  
+.main-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 450px;
+    background-color: crimson;
+}
+  
+.main-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 300px;
+    background-color: darkblue;
+}
+
